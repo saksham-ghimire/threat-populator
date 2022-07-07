@@ -1,0 +1,9 @@
+---
+- time: 3600
+  sources:
+  - url: https://rescure.fruxlabs.com/rescure_domain_blacklist.txt
+    parser: text
+- time: 3600
+  sources:
+  - url: https://openphish.com/feed.txt
+    parser: text
